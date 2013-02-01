@@ -1,0 +1,13 @@
+Beatrice female
+Gertrude female
+Emily female
+Molly female
+Anna female
+Elizabeth female
+
+Robert male
+William male
+Bernie male
+Nicholas male
+Lewis male
+Stuart male

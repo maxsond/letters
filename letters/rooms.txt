@@ -1,0 +1,8 @@
+prison
+You find yourself in a dingy stone room.
+a,a test exit,test
+
+test
+This is a test chamber.
+a,a test exit,prison
+

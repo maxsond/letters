@@ -1,0 +1,3 @@
+oaken_door
+door
+A sturdy oak door stands here.

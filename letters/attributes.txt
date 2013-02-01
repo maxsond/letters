@@ -1,0 +1,10 @@
+at_war
+injured
+killed
+sick
+coward
+shellshock
+civilian
+married
+engaged
+courting

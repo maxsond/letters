@@ -1,0 +1,19 @@
+Feature List:
+
+Actors:
+
+	1. Generate starting actor relationships - DONE
+
+Scribe:
+
+	1. Populate salutation and signature vocabulary
+	2. Establish sentence granularity - Ad libs
+	
+Storyteller:
+
+	1. Build Event Generator
+
+Game:
+
+	1. Implement game saving and loading
+		Waiting on actor variables to be finished
