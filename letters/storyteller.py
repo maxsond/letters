@@ -20,7 +20,7 @@ def init_relations(roster):
 		for target in roster:
 			if target != person:
 				relation = random.randint(1,5) + random.randint(1,5) - 2
-				roster[person]['relations'][target] = relation
+				roster[person].relationship[target] = relation
 '''			
 				print "%s's relation towards %s is %s" % (
 				roster[person]['name'],
