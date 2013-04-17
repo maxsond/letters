@@ -30,9 +30,7 @@ def populate(playbill):
 			actorname = details.pop()
 #			print actorname
 #			print gender
-			roster[actorname] = Character()
-			roster[actorname].name = actorname
-			roster[actorname].gender = gender
+			roster[actorname] = Character(gender, actorname)
 #			roster[str(actorname)]['name'] = actorname
 #			roster[str(actorname)]['gender'] = gender
 #	for member in roster:
@@ -47,12 +45,9 @@ def populate(playbill):
 
 # Return all valid properties of an Actor object and their values
 def attr(actor):
-	list = {}
-	for n in roster[actor]:
-		list[n] = roster[actor][n]
-	return list
+	return actor.name
 
 populate('playbill.txt')
 storyteller.init_relations(roster)
 
-print attr('Gertrude')
+print attr(roster['Gertrude'])
