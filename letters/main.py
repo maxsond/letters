@@ -18,15 +18,4 @@ import scribe
 # Handles "first-person" mode
 import map
 
-# Here's where we draft the letters
-
-
-#c = Character('Male', 'Malkav')
-
-#a = Letter()
-#print a.salutation['tender'], c.name, ","
-#print "How are you?"
-#print a.closing['tender']
-#print c.name
-
 print map.prison.look()
